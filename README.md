@@ -1,5 +1,7 @@
 # Adopta_un_Junior_IA
 
+https://colab.research.google.com/drive/1W4I4se4GHpiCEmHsw7nafFAY4OI7gB_u?usp=sharing
+
 # Por que funcionan mis prompts?
 
 ## Prompts
