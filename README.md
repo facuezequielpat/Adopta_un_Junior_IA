@@ -9,8 +9,10 @@
 Mis prompts funcionan porque:  
 - 📐 Dan **instrucciones claras** al modelo.  
 - 🧩 Especifican la **estructura JSON exacta** que debe seguir.  
-- 🎯 Indican los **campos obligatorios**: título, género y motivo.  
-- 📝 Incluyen un **ejemplo de salida** que guía al modelo para replicar el formato.  
+- 🎯 Indican los **campos obligatorios**: título, género y motivo.
+- ✅  Tiene una **mayor personalizacion** el usuario debe poner su Edad, Pelicula preferida, y Estado de animo actual (Inspirado por uno de mis compañeros)  
+- 📝 Incluyen un **ejemplo de salida** que guía al modelo para replicar el formato.
+
 
 Gracias a esto, el modelo responde de forma coherente y directamente utilizable.
 
@@ -21,35 +23,44 @@ Gracias a esto, el modelo responde de forma coherente y directamente utilizable.
 👉 Prompt 1:
 ```
 Recomienda 3 películas en formato JSON.
+
+Teniendo en cuenta la Edad:{Edad}
+Teniendo en cuenta la Pelicula favorita:{Pelicula_preferida}
+Teniendo en cuenta el Estado de animo actual:{Estado_de_animo_actual}
+
 Cada película debe tener:
 - título
 - género
 - motivo de recomendación
 
 Ejemplo de formato:
-"""[
+[
   {"título": "...", "género": "...", "motivo": "..."},
   {"título": "...", "género": "...", "motivo": "..."},
   {"título": "...", "género": "...", "motivo": "..."}
-]"""
+]
+
+No añadas explicaciones ni texto fuera del bloque JSON.
 ```
 
 👉 Prompt 2:
 ```
 Proporcione una lista de tres recomendaciones de películas en formato JSON.
 
+Teniendo en cuenta la Edad:{Edad}
+Teniendo en cuenta la Pelicula favorita:{Pelicula_preferida}
+Teniendo en cuenta el Estado de animo actual:{Estado_de_animo_actual}
+
 Cada película debe incluir:
 
-“Título”: el título de la película  
-“Género”: el género de la película  
-“Motivo”: el motivo por el que recomienda la película  
-
+“Título”: el título de la película
+“Género”: el género de la película
+“Motivo”: el motivo por el que recomienda la película
 Asegúrese de que el JSON esté correctamente estructurado y siga el siguiente formato:
-
 [
-  {"Título": "Título de la película 1", "Género": "Género 1", "Motivo": "Motivo 1"},
-  {"Título": "Título de la película 2", "Género": "Género 2", "Motivo": "Motivo 2"},
-  {"Título": "Título de la película 3", "Género": "Género 3", "Motivo": "Motivo 3"}
+{“Título”: “Título de la película 1”, “Género”: “Género 1”, “motivo”: “Motivo para recomendar la película 1”},
+{“Título”: “Título de la película 2”, “Género”: “Género 2”, “motivo”: “Motivo para recomendar la película 2”},
+{“Título”: “Título de la película 3”, “Género”: “Género 3”, “motivo”: “Motivo para recomendar la película 3”}
 ]
 ```
 
