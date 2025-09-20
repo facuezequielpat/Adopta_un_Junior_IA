@@ -1,6 +1,6 @@
 # 🎓 Adopta_un_Junior_IA
 
-📌 [Notebook en Google Colab](https://colab.research.google.com/drive/1W4I4se4GHpiCEmHsw7nafFAY4OI7gB_u?usp=sharing)
+Mira mi proyecto desde aca: 📌 [Notebook en Google Colab](https://colab.research.google.com/drive/1W4I4se4GHpiCEmHsw7nafFAY4OI7gB_u?usp=sharing)
 
 ---
 
@@ -69,23 +69,11 @@ Asegúrese de que el JSON esté correctamente estructurado y siga el siguiente f
 ## 🎬 Ejemplos de Salida
 
 ➡ **Ejemplo 1**
-```json
+```
 [
-  {
-    "título": "Pulp Fiction",
-    "género": "Acción",
-    "motivo": "La mezcla perfecta de acción, drama y humor"
-  },
-  {
-    "título": "La lista de Schindler",
-    "género": "Drama",
-    "motivo": "Un relato poderoso y emotivo sobre la humanidad"
-  },
-  {
-    "título": "Inception",
-    "género": "Ciencia ficción",
-    "motivo": "Una experiencia visual y mental deslumbrante"
-  }
+  {"título": "Inception", "género": "Acción, Ciencia Ficción", "motivo": "Dado tu estado de ánimo actual, 'Inception' podría ayudar a distraerte con su intrincada trama y efectos visuales impresionantes."},
+  {"título": "La lista de Schindler", "género": "Drama, Histórico", "motivo": "Como te gusta la película 'IT', 'La lista de Schindler' ofrece una historia poderosa y conmovedora que podría resonar contigo."},
+  {"título": "El Gran Hotel Harcourt", "género": "Comedia, Drama", "motivo": "Para un cambio de ritmo, 'El Gran Hotel Harcourt' ofrece una mezcla de humor y drama, ideal para calmar tu estado de ánimo."}
 ]
 ```
 
@@ -93,19 +81,19 @@ Asegúrese de que el JSON esté correctamente estructurado y siga el siguiente f
 ```json
 [
   {
-    "Título": "Interstellar",
-    "Género": "Ciencia Ficción",
-    "Motivo": "Una obra maestra visual y conceptual que explora temas profundos como el tiempo y el futuro de la humanidad."
+    "Título": "John Wick: Capítulo 4",
+    "Género": "Acción, Thriller",
+    "Motivo": "Para canalizar la energía del enojo, esta película ofrece una acción implacable y coreografías espectaculares. La venganza del protagonista puede ser catártica y la intensidad te mantendrá al borde del asiento, ideal para un estado de ánimo enojado."
   },
   {
-    "Título": "El Padrino",
-    "Género": "Drama Criminal",
-    "Motivo": "Un clásico atemporal que define el género de gánsteres, con actuaciones legendarias y una historia sobre poder y lealtad."
+    "Título": "Se7en (Seven: Pecados Capitales)",
+    "Género": "Thriller, Crimen, Misterio",
+    "Motivo": "Si te gusta la oscuridad y la intensidad de 'IT', este thriller psicológico te sumergirá en una atmósfera sombría y perturbadora. Su tensión constante y giros inesperados son perfectos para distraerte y mantener tu mente ocupada en una narrativa visceral."
   },
   {
-    "Título": "Amélie",
-    "Género": "Comedia Romántica / Fantasía",
-    "Motivo": "Una película encantadora y visualmente poética que te transporta a un París mágico."
+    "Título": "Fight Club (El Club de la Lucha)",
+    "Género": "Drama, Thriller, Sátira",
+    "Motivo": "Una película provocadora y reflexiva que explora la frustración y la rabia en la sociedad moderna. Su estilo audaz y su mensaje subversivo pueden resonar con un estado de ánimo de enojo, ofreciendo una válvula de escape intelectual y emocional a tu edad."
   }
 ]
 ```
